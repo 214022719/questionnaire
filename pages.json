@@ -1,0 +1,67 @@
+{
+	"pages": [	
+			{
+				"path": "pages/index/index",
+			    "style": {
+			        "navigationBarTitleText": "主页"
+			    }
+			},
+			{
+			    "path": "pages/index/mainpage",
+			    "style": {
+			        "navigationBarTitleText": "授权"
+			    }
+			
+			}
+	    ,{
+            "path" : "pages/index/createQuestionnaire",
+            "style" : {
+				 "navigationBarTitleText": "创建问卷"
+			}
+        }
+        ,{
+            "path" : "pages/index/other",
+            "style" : {
+				"navigationBarTitleText": "其他"
+			}
+        },{
+            "path" : "pages/index/addQuestionnaire",
+            "style" : {
+				"navigationBarTitleText": "创建问卷"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	    "tabBar":{
+	        "color":"#333",
+	        "selectedColor":"deepskyblue",
+	        "backgroundColor":"#eee",
+	        "borderStyle":"black",
+	        "list":[
+	            {
+	                "pagePath":"pages/index/index",
+	                "text":"我的问卷"
+	               // "iconPath":"./static/tabbar/index.png",
+	               // "selectedIconPath":"static/tabbar/indexed.png"
+	            },
+	            {
+	                "pagePath":"pages/index/createQuestionnaire",
+	                "text":"动态"
+	               // "iconPath":"static/tabbar/news.png",
+	              //  "selectedIconPath":"static/tabbar/newsed.png"
+	            },
+				{
+					"pagePath":"pages/index/other",
+					  "text":"其他"
+					 // "iconPath":"static/tabbar/news.png",
+					//  "selectedIconPath":"static/tabbar/newsed.png"
+				}
+	           
+	        ]
+	    }
+}

@@ -1,0 +1,1 @@
+<view class="content"><view class="uni-list"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="uni-list-cell" hover-class="uni-list-cell-hover"><view class="uni-list-cell-navigate uni-navigate-right">{{''+item+''}}</view></view></block></view></view>

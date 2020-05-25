@@ -1,0 +1,1 @@
+<view><button open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">授权获取头像昵称</button></view>
